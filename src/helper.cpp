@@ -5,8 +5,8 @@ short xytocell(short x, short y) {
     return x * 8 + y;
 }
 
-void interpretinput(short& x, short& y, short cell) {
-    if (cell < 0 || cell > 64) {
+void celltoxy(short& x, short& y, short cell) {
+    if (cell < 0 || cell >= 64) {
         x = y = -1; // optional: indicate invalid cell
         return;
     }

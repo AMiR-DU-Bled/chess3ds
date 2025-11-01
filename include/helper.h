@@ -3,7 +3,7 @@
 
 short xytocell(short x, short y);
 
-void interpretinput(short& x, short& y, short cell);
+void celltoxy(short& x, short& y, short cell);
 
 void cellToPos(short& x, short& y, short cell);
 
